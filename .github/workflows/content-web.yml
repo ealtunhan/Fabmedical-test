@@ -33,4 +33,4 @@ jobs:
           dockerfile: "./content-web/Dockerfile"
           registry: "fabmedicalerol.azurecr.io"
           repository: "content-web" 
-          tags: latest
+          tags: '${{ github.run_id  }}'
